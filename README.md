@@ -106,6 +106,18 @@ It uses historical stock data, applies preprocessing with MinMaxScaler, and trai
 
 `.venv\Scripts\Activate.ps1`
 
+🔹 Step 4: Install required libraries
+
+Run this inside your project:
+
+`pip install streamlit pandas scikit-learn joblib`
+
+🔹 5. Run your Streamlit app
+
+In the terminal (inside your project folder):
+
+`streamlit run segmentation.py`
+
 ---
 
 
@@ -113,6 +125,8 @@ It uses historical stock data, applies preprocessing with MinMaxScaler, and trai
 
 
 <img width="628" height="427" alt="Screenshot 2025-09-29 053436" src="https://github.com/user-attachments/assets/690cc1a4-dfcf-41db-aa32-56c1fb831e40" />
+
+---
 
 ## 📊 Results
 The model achieves a low RMSE score on both training and test data.
