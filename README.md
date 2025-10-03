@@ -44,18 +44,69 @@ It uses historical stock data, applies preprocessing with MinMaxScaler, and trai
 8. **Prediction** – Forecasting future stock prices (next 30 days).  
 9. **Visualization** – Comparing actual vs. predicted stock trends.  
 
+---
 
 ## 🚀 How to Run  
 
-Clone the repository and install requirements:  git clone https://github.com/your-username/Stock-Market-Prediction.git
+**Clone the repository and install requirements:**
 
-cd Stock-Market-Prediction
+`git clone https://github.com/your-username/Stock-Market-Prediction.git`
 
-pip install -r requirements.txt 
+**cd Stock-Market-Prediction**
 
-Run the Jupyter Notebook: jupyter notebook stock_lstm.ipynb
+`pip install -r requirements.txt`
 
-(Optional) Run the Streamlit app: streamlit run app.py
+**Run the Jupyter Notebook:**
+
+`jupyter notebook stock_lstm.ipynb`
+
+**Run the Streamlit app:**
+
+*This Command Launch my Python script as a web app in the browser*
+
+`streamlit run app.py`          
+
+
+### **Create New virtual environment**
+
+**🔹 Step 1: Open terminal (Command Prompt / PowerShell / Git Bash / VS Code Terminal)**
+
+**Navigate to your project folder:**
+
+`cd path\to\your\project`
+
+**🔹 Step 2: Create the virtual environment**
+
+
+`python -m venv .venv`
+
+
+`python -m venv → creates a virtual environment`
+
+.venv → the folder name (you can also name it env, but .venv is common for GitHub projects)
+
+**🔹 Step 3: Activate the environment**
+
+**On Windows (CMD)**
+
+
+`.venv\Scripts\activate`
+
+**On Windows (PowerShell)**
+
+`.venv\Scripts\Activate.ps1`
+
+**On Mac/Linux**
+
+`source .venv/bin/activate`
+
+**On Windows (PowerShell)**
+
+
+`.venv\Scripts\Activate.ps1`
+
+---
+
 
 ## 📸 Historical Closing Price Trend of Apple (AAPL)
 
@@ -69,6 +120,7 @@ Predicted trends closely follow the actual Apple stock price.
 
 Next 30 days of stock prices are forecasted using the trained LSTM.
 
+---
 
 ## 📧 Support
 For queries or suggestions, feel free to connect:
@@ -76,4 +128,3 @@ For queries or suggestions, feel free to connect:
 📩 Email: zuhairzia1@gmail.com
 
 💼 LinkedIn: www.linkedin.com/in/zuhairzia
-📩 Email: zuhairzia1@gmail.com
