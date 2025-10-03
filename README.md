@@ -124,8 +124,9 @@ Next 30 days of stock prices are forecasted using the trained LSTM.
 ---
 
 ## 📧 Support
-For queries or suggestions, feel free to connect:
 
-📩 Email: zuhairzia1@gmail.com
+**For queries or suggestions, feel free to connect:**
 
-💼 LinkedIn: www.linkedin.com/in/zuhairzia
+📩 **Email:**  zuhairzia1@gmail.com
+
+💼 **LinkedIn:**  www.linkedin.com/in/zuhairzia
