@@ -66,6 +66,7 @@ It uses historical stock data, applies preprocessing with MinMaxScaler, and trai
 
 `streamlit run app.py`          
 
+---
 
 ### **Create New virtual environment**
 
