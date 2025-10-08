@@ -116,7 +116,7 @@ Run this inside your project:
 
 In the terminal (inside your project folder):
 
-`streamlit run segmentation.py`
+`streamlit run app.py`
 
 ---
 
